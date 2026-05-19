@@ -1,0 +1,35 @@
+{
+  "name": "@volta-oss/local-schema-forge",
+  "version": "3.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Generate structured data blocks for common local business pages without making students memorize schema.org.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173",
+    "validate": "node --test",
+    "certify": "node --test test/v3.test.js",
+    "test:all": "node --test"
+  },
+  "keywords": [
+    "digital presence",
+    "digital-equity",
+    "local-first",
+    "oss",
+    "v3-production",
+    "volta"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volta-npo/07-local-schema-forge.git"
+  },
+  "homepage": "https://volta-npo.github.io/07-local-schema-forge/",
+  "bugs": {
+    "url": "https://github.com/volta-npo/07-local-schema-forge/issues"
+  },
+  "author": "Volta OSS Division <volta.npo@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  }
+}
