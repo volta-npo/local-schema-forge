@@ -1,0 +1,13 @@
+[package]
+name = "local_schema_forge_backend"
+version = "0.1.0"
+edition = "2021"
+description = "Rust release-gate engine for Local Schema Forge"
+license = "MIT"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "local-schema-forge-backend"
+path = "src/main.rs"
