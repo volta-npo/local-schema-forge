@@ -76,17 +76,37 @@ export const domain = {
     "URLs validated",
     "@id uniqueness checked",
     "JSON-LD generated",
-    "Validation checklist complete"
+    "Validation checklist complete",
+    "Business subtype requirements mapped",
+    "SameAs/social links added",
+    "FAQ schema generated",
+    "Rich Results test notes captured"
   ],
   "artifacts": [
     "JSON-LD block",
     "HTML script tag",
-    "Schema validation checklist"
+    "Schema validation checklist",
+    "Business subtype field map",
+    "FAQ schema block",
+    "Rich Results QA notes"
   ],
   "checks": [
     "Generated JSON must parse",
     "Required fields by type",
-    "Opening hours format enforced"
+    "Opening hours format enforced",
+    "sameAs links must be valid URLs",
+    "FAQ schema requires question and answer pairs",
+    "Rich Results notes required before handoff"
   ],
-  "sampleClient": "Riverside Community Bakery"
+  "sampleClient": "Riverside Community Bakery",
+  "saas": {
+    "personas": ["Schema implementer", "Local business owner", "SEO QA reviewer"],
+    "stages": [
+      { "name": "Business modeling", "goal": "Collect the business subtype, contact fields, hours, IDs, and social profiles.", "rowPatterns": ["Business type|Name/address|Hours|sameAs|subtype"] },
+      { "name": "Schema generation", "goal": "Generate JSON-LD, FAQ blocks, service/menu references, and script tags.", "rowPatterns": ["JSON-LD|FAQ|Services|script"] },
+      { "name": "Validation handoff", "goal": "Package validation notes and placement instructions for launch.", "rowPatterns": ["Validation|Rich Results|checklist|URLs"] }
+    ],
+    "sampleValues": { "primary-goal": "ship valid local business JSON-LD for owner handoff" },
+    "sampleRows": { "Business subtype requirements mapped": "Mapped Bakery subtype fields plus price range and opening hours", "Rich Results test notes captured": "Recorded parser status and follow-up warnings for owner handoff" }
+  }
 };
