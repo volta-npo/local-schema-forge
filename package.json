@@ -32,11 +32,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/07-local-schema-forge.git"
+    "url": "git+https://github.com/volta-npo/local-schema-forge.git"
   },
-  "homepage": "https://volta-npo.github.io/07-local-schema-forge/",
+  "homepage": "https://volta-npo.github.io/local-schema-forge/",
   "bugs": {
-    "url": "https://github.com/volta-npo/07-local-schema-forge/issues"
+    "url": "https://github.com/volta-npo/local-schema-forge/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {

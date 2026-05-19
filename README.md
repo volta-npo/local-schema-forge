@@ -12,7 +12,7 @@
 
 **Digital Presence** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/07-local-schema-forge/) · [Report an issue](https://github.com/volta-npo/07-local-schema-forge/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/local-schema-forge/) · [Report an issue](https://github.com/volta-npo/local-schema-forge/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -193,7 +193,7 @@ This repo is designed to be usable as a real OSS product, not just a static demo
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/07-local-schema-forge.git
+git clone https://github.com/volta-npo/local-schema-forge.git
 cd 07-local-schema-forge
 npm install
 npm test
