@@ -22,6 +22,24 @@ export declare const domain: {
     rows: string[];
     artifacts: string[];
     checks: string[];
+    modules: {
+        name: string;
+        description: string;
+        metrics: string[];
+        deliverable: string;
+    }[];
+    plays: {
+        name: string;
+        trigger: string;
+        outcome: string;
+    }[];
+    economics: {
+        buyer: string;
+        valueMetric: string;
+        priceHint: string;
+        northStar: string;
+    };
+    exportSuite: string[];
     sampleClient: string;
     saas: {
         personas: string[];
@@ -34,8 +52,18 @@ export declare const domain: {
             "primary-goal": string;
         };
         sampleRows: {
-            "Business subtype requirements mapped": string;
-            "Rich Results test notes captured": string;
+            "Business type selected": string;
+            "NAP and geo fields entered": string;
+            "Opening hours modeled": string;
+            "SameAs/social links verified": string;
+            "Services/products mapped": string;
+            "JSON-LD preview generated": string;
+            "Validation checklist completed": string;
+            "Implementation notes exported": string;
+            "Image/logo metadata attached": string;
+            "Service area/neighborhoods mapped": string;
+            "Duplicate/stale facts checked": string;
+            "Owner approval for structured data recorded": string;
         };
     };
 };
